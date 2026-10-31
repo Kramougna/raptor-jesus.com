@@ -101,3 +101,5 @@ header{background:var(--suite-surface);border-color:var(--suite-line);color:var(
 @media(max-width:600px){header .brand{font-size:19px}header>a:last-of-type{font-size:10px}.brand-mark{width:28px;height:34px}.brand-mark svg{width:17px;height:22px}.theme-toggle{min-width:86px}header{gap:7px}.hero-copy .eyebrow{font-size:8px}.hero-copy h1{font-size:49px}}
 
 [data-theme=dark] .hero-copy .eyebrow{color:#a7dcea}
+
+@media(max-width:600px){header>a[href="https://ayr.dev"]{display:none}header>a[href="/parcours/"]{font-size:10px;white-space:nowrap}}
